@@ -1,0 +1,206 @@
+
+/*cabeçalho*/
+
+.container-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.titulo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo p{
+    margin: 0.6em;
+}
+
+nav a{
+    color:#667085;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.botao-cadastro{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #667085;
+}
+
+.botao-personalizado{
+  background-color: #8E2424;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/*Sobre nos*/
+
+.sobre-nos{
+   text-align: center;
+   margin-top: 5em;
+}
+
+.paragrafo-vermelho{
+    color: #8E2424;
+    margin-bottom: 2em;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.paragrafo-cinza{
+    color: #667085;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+/*parte dos alncances da empresa*/
+
+.projetos-concluidos{
+   margin-top: 8em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.numero{
+    font-size: 60px;
+    color: #8E2424;
+    font-weight: bold;
+}
+
+.titulo-pequeno{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #101828;
+    margin: 0.7em 0px;
+}
+
+.paragrafo-pequeno{
+   color:#667085;
+   line-height: 20px;
+   font-size: 20px;
+}
+
+/* Vagas abertas */
+
+.container-vagas{
+    text-align: center;
+    margin-top: 6em;
+}
+
+.imagem{
+  margin: 3em 0px;
+}
+
+.vagas-abertas{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tipos-vagas{
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 2em;
+}
+
+.empregos{
+    margin: 2em 0 0 3em;
+}
+
+.lista-vagas{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 1.5em;
+}
+
+/*parte de creditos ao dev*/
+
+.creditos-desenvolvedor{
+    text-align: center;
+    margin-top: 6em;
+}
+
+.paragrafo-dev{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.meu-nome{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 24px;
+    margin-top: 4em;
+}
+
+/* Parte do acompanhe nossas novidades*/
+
+.container-novidades{
+    text-align: center;
+    margin: 6em 0px;
+    
+}
+
+.barra-texto{
+    padding: 10px;
+    margin: 2em 0px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.area-do-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*Area de responsividade*/
+
+@media(min-width: 750px) {
+
+    
+
+/* CABEÇALHO */
+    nav a{        
+        margin: 5px;
+    }
+
+/* PROJETOS*/
+
+.container{
+flex-wrap: wrap;
+}
+
+/*Vagas abertas*/
+.imagem{
+    width: 80%;
+}
+
+}
+
+
+
